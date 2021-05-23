@@ -6,10 +6,8 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
-
-        <!--text view for displaying center name-->
         <TextView
-            android:id="@+id/idTVCenterName"
+            android:id="@+id/CenterName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="3dp"
@@ -19,12 +17,11 @@
             android:text="Center Name"
             android:textColor="@color/black" />
 
-        <!--text view for displaying center address-->
         <TextView
-            android:id="@+id/idTVCenterAddress"
+            android:id="@+id/CenterAddress"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/idTVCenterName"
+            android:layout_below="@id/CenterName"
             android:layout_margin="3dp"
             android:drawableLeft="@drawable/ic_location"
             android:drawablePadding="4dp"
@@ -32,12 +29,11 @@
             android:text="Center Address"
             android:textColor="@color/black" />
 
-        <!--text view for displaying center timings-->
         <TextView
-            android:id="@+id/idTVCenterTimings"
+            android:id="@+id/CenterTimings"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/idTVCenterAddress"
+            android:layout_below="@id/CenterAddress"
             android:layout_margin="3dp"
             android:drawableLeft="@drawable/ic_time"
             android:drawablePadding="4dp"
@@ -49,13 +45,12 @@
             android:id="@+id/idLL1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/idTVCenterTimings"
+            android:layout_below="@id/CenterTimings"
             android:orientation="horizontal"
             android:weightSum="2">
 
-            <!--text view for displaying vaccine name-->
             <TextView
-                android:id="@+id/idTVVaccineName"
+                android:id="@+id/VaccineName"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="3dp"
@@ -66,9 +61,8 @@
                 android:text="Vaccine Name"
                 android:textColor="@color/black" />
 
-            <!--text view for displaying center fees type-->
             <TextView
-                android:id="@+id/idTVFeeType"
+                android:id="@+id/FeeType"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -88,9 +82,8 @@
             android:orientation="horizontal"
             android:weightSum="2">
 
-            <!--text view for displaying age limit-->
             <TextView
-                android:id="@+id/idTVAgeLimit"
+                android:id="@+id/AgeLimit"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -101,9 +94,8 @@
                 android:textAlignment="center"
                 android:textColor="@color/black" />
 
-            <!--text view for displaying center availability-->
             <TextView
-                android:id="@+id/idTVAvaliablity"
+                android:id="@+id/Avaliablity"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
